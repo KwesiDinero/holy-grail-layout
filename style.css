@@ -10,6 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    flex-wrap: wrap;
+   /*padding-left: 2rem;*/
 }
 
 .first{
@@ -52,6 +54,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .links{
@@ -98,11 +101,12 @@ padding-bottom: 60px;
     color: #1F2937;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 30px;
     padding-right: 4rem;
     padding-left: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    height: fit-content;
 }
 
 .box2header{
@@ -117,12 +121,14 @@ padding-bottom: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap:2rem;
 }
 
 .img-text-box{
     display:flex;
     flex-direction: column;
     padding-left: 8px;
+    gap: 2rem;
 
 }
 
@@ -139,7 +145,7 @@ padding-bottom: 60px;
     padding-right: 14rem;
     padding-left: 14rem;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .third-testimonial-or-quote{
@@ -165,11 +171,12 @@ button{
 }
 
 .fourth{
-    gap: 16px;
+
     padding-right: 4rem;
     padding-left: 4rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
     
 }
 .inner-main{
@@ -180,6 +187,7 @@ button{
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
+    border-radius: 8px;
 }
 .whew{
     display: flex;
@@ -187,9 +195,10 @@ button{
     gap: 4px;
     color: #E5E7EB;
     font-size: 24px;
+  
 }
 
-footer{
+.foot{
     height: 8rem;
     background-color: #1F2937;
     color: #E5E7EB;
@@ -197,4 +206,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    min-width: max-content;
+    
+}
+.hacky-fix{
+    padding-left: 150px;
+    padding-right: 150px;
 }
